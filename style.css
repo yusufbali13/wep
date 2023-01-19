@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+header{
+    background-color: rgb(57, 66, 74);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    text-decoration: none ;
+    border-bottom: 5px solid rgb(121, 20, 111) ;
+}
+a{
+    text-decoration: none ;
+    color: white !important;
+}
+header section.header__right{
+    display: flex;
+    gap: 1rem;
+}
+header section.header__right a{
+    text-decoration: none ;
+}
+header section a span{
+    color: rgb(121, 20, 111);
+}
+.home_a{
+    color: rgb(121, 20, 111) !important ;
+}
+main img{
+    width: 20%;
+}
+main section.main__head{
+    background-image: url(./img/showcase.jpg);
+    height: 330px;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+main section.main__head h1{
+    font-size: 48px;
+}
+main section.main__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(57, 66, 74);
+    height: 10vh;
+    padding: 0 2rem;
+    color: white;
+}
+main section.main__main article.input input {
+    outline: none;
+    padding:0.3rem 4rem 0.3rem 0rem;
+    height: 2rem;
+}
+main section.main__main article.input button{
+    height: 2rem;
+    color: white;
+    background-color: orangered;
+    padding: 0.3rem;
+    border: none;
+}
+main section.main__main article.input button:hover{
+    cursor: pointer;
+}
+main section.main__bottom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+main section.main__bottom article h4{
+    padding: 1rem;
+}
+footer{
+    background-color:rgb(57, 66, 74) ;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+footer img{
+    width: 200px;
+}
+
+/* About */
+
+.about-a{
+    color: brown !import;
+
+}
+.main__about{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 2rem;
+}
+.main__about .left__side .h3{
+    color: rgb(57, 66, 74) ;;
+}
+.main__about .left__side .p2{
+    background-color: rgb(57, 66, 74);
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+
+}
+
+.main__about .right__side{
+    background-color: rgb(57, 66, 74);
+    color: white;
+   
+    padding: 1rem;
+}
+
+.footer__about{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+ /* Service */
+
+ .service{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+   
+    
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(57, 66, 74) ;
+    color: white;
+    padding: 1rem;
+    gap: 0.5rem;
+
+ }
+
+form input, textarea{
+    width: 20rem;
+    padding-left: 0.5rem;
+}
+form button{
+    width: 5rem;
+    padding: 0.3rem 0rem;
+    background-color: orangered;
+    border: none;
+    color: white;
+}
+.service nav{
+    background-color: rgba(91, 107, 121, 0.211) ;
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 100%;
+    
+}
